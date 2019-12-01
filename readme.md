@@ -1,15 +1,15 @@
-### Recursive directory creation
+### Quick recursive directory creation
 
 Attempts to recursively create a directory even if it exists or not. 
 
 #### Install
 ```
-npm i @awps/mkdirp -D
+npm i quickdir -D
 ``` 
 
 #### Usage
 ```
-const mkdirp = require('@awps/mkdirp')
+const quickdir = require('quickdir')
 
-mkdirp('very/long/dir/path/existent/or/nonexistent');
+quickdir('very/long/dir/path/existent/or/nonexistent');
 ```

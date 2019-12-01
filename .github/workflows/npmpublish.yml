@@ -17,6 +17,6 @@ jobs:
       - run: |
           sed -i -e 's|"version": "1.0.0"|"version": "'"$(sed -e "s/refs\/tags\///g" <<< $GITHUB_REF)"'"|g' ./package.json
 
-      - run: npm publish
+      - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}

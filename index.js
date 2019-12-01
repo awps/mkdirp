@@ -1,13 +1,13 @@
 const fs = require('fs')
 const path = require('path')
 
-const mkdirp = (filePath) => {
+const quickdir = (filePath) => {
     let dirname = path.dirname(filePath)
     if (fs.existsSync(dirname)) {
         return true
     }
-    mkdirp(dirname)
+    quickdir(dirname)
     fs.mkdirSync(dirname)
 }
 
-module.exports = mkdirp
+module.exports = quickdir
