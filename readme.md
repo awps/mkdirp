@@ -9,7 +9,7 @@ npm i quickdir -D
 
 #### Usage
 ```
-const quickdir = require('quickdir')
+const quickdir = require('@smartik/quickdir')
 
 quickdir('very/long/dir/path/existent/or/nonexistent');
 ```
