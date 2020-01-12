@@ -2,6 +2,8 @@
 
 Attempts to recursively create a directory even if it exists or not. 
 
+[![NPM](https://nodei.co/npm/@smartik/quickdir.png?compact=true)](https://nodei.co/npm/@smartik/quickdir/)
+
 #### Install
 ```
 npm i quickdir -D
