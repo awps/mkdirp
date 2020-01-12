@@ -1,6 +1,6 @@
 ### Quick recursive directory creation
 
-Attempts to recursively create a directory even if it exists or not. 
+Attempts to recursively create a directory even if it does not exists exists or not. 
 
 [![NPM](https://nodei.co/npm/@smartik/quickdir.png?compact=true)](https://nodei.co/npm/@smartik/quickdir/)
 
